@@ -20,14 +20,14 @@
     <%= form.label :picture %>
     <%= form.file_field :picture %>
 
-    <%= form.hidden_field :picture_cache %>
+    <!-- <%= form.hidden_field :picture_cache %> -->
   </div>
 
 
   <div>
-    user.picture.present? => <%= user.picture.present? %>
+    user.picture.url.empty? => <%= user.picture.url.empty? %>
     <br>
-    user.picture? => <%= user.picture? %>
+    user.picture.url.empty? => <%= user.picture.url.empty? %>
   </div>
 
   <div class="actions">
